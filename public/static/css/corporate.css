@@ -1,0 +1,748 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+	url('/static/fonts/montserrat-regular-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/fonts/montserrat-light-webfont.woff2') format('woff2'),
+	url('/static/fonts/montserrat-light-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+	url('/static/fonts/montserrat-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('/static/fonts/glyphicons-halflings-regular.woff') format('woff');
+	font-weight: 400;
+	font-style:normal;
+}
+
+div{
+	background-position: center center;
+}
+
+span.nowrap{
+	white-space: nowrap;
+}
+
+h1{
+	color:#0d4b83;
+}
+
+img{
+	max-width:100%;
+}
+
+.footer .col-sm-3 .table{
+	min-height:49px;
+}
+
+.sharePrice{
+	font-weight:100;
+	color:#005b99;
+	font-size:16px;
+}
+
+.sharePrice span{
+	color:#3fae49;
+	font-weight: bold;
+}
+
+nav.top .background, nav .background{
+	box-shadow: none;
+}
+
+.navShadow{
+	z-index:7;
+	pointer-events:none;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	box-shadow:0px 5px 10px rgba(0,0,0,.3);
+}
+
+@media screen and (min-width:768px){
+	#request .col-sm-6:first-of-type .table{
+		min-height:82px;
+	}
+}
+
+.sectionLead{
+	padding-top:31px;
+	padding-bottom:28px;
+	margin:0;
+}
+
+.calloutRow{
+	margin:0;
+	display:flex;
+	justify-content:space-between;
+}
+
+.calloutBox{
+	background-size:cover;
+	position: relative;
+	min-height:245px;
+	flex:0 1 285px;
+	display: block;
+	box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+.calloutbox.noLink{
+	box-shadow: none;
+}
+
+@media screen and (min-width:1200px){
+	.calloutBox{
+		background-size:cover;
+		position: relative;
+		min-height:245px;
+		flex:0 1 340px;
+	}
+}
+
+.calloutBox .text{
+	position: absolute;
+	left:18px;
+	bottom:18px;
+	color:white;
+}
+
+.calloutBox .text h4, .calloutBox .text h3{
+	margin:0;
+}
+
+.calloutBox .text h4{
+	font-size:20px;
+	line-height:22px;
+	font-weight: 300;
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+	margin-bottom: 4px;
+}
+
+.calloutBox .text h3{
+	max-width:180px;
+	font-size:24px;
+	line-height:29px;
+}
+
+.calloutBox .text h3 i{
+	font-size:16px;
+}
+
+h5.aqua{
+	font-size:20px;
+	line-height:1.1;
+	margin:0;
+}
+
+.textCarouselRow{
+	margin-top:48px;
+}
+
+.textCarouselRow h5{
+	padding-bottom:16px;
+}
+
+.textCarouselRow .col-md-8 .col-sm-12{
+	padding-bottom:10px;
+}
+
+.carousel-block-btn h4{
+	font-family:"Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+	font-weight:300;
+}
+
+.carousel-block-btn h6{
+	font-weight:400;
+}
+
+.calloutBox.noLink{
+	box-shadow:none;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.textCarouselRow .col-md-8 .col-sm-12{
+		min-height:287px;
+		padding-right:0;
+		max-width:614px;
+		position:relative;
+	}
+	.homeBrandedList .col-md-8{
+		max-width:614px;
+	}
+}
+
+.textImageRow{
+	margin-top: 60px;
+}
+
+.textImageRow h1{
+	color:#0d4b83;
+	margin-top:0;
+	margin-bottom: 24px
+}
+
+.textImageRow .calloutBox{
+	min-height:305px;
+}
+
+.textImageRow .calloutBox .text{
+	bottom:30px;
+	left:30px;
+}
+@media screen and (max-width:375px){
+	.textImageRow .calloutBox .text{
+		bottom:15px;
+		left:15px;
+	}
+}
+
+@media screen and (min-width:992px){
+	.textImageRow h1{
+		margin-bottom: 50px;
+	}
+}
+
+
+@media screen and (min-width:1200px){
+	.textCarouselRow .col-md-8 .col-sm-12{
+		min-height:287px;
+		max-width:740px;
+	}
+	.homeBrandedList .col-md-8{
+		max-width:740px;
+	}
+}
+
+@media screen and (min-width:992px){
+	.twoColBrandedList .container{
+		position: relative;
+		padding-top:44px;
+	}
+	.twoColBrandedList .container:after{
+		content:'';
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		margin:0 15px;
+		border-top:1px solid #e6e6e6;
+		display:block;
+	}
+}
+
+@media screen and (min-width:801px) and (max-width:991px){
+	.calloutBox{
+		box-shadow: none;
+	}
+	.calloutBox:first-of-type{
+		border-right:15px solid white;
+	}
+	.calloutBox:last-of-type{
+		border-left:15px solid white;
+	}
+}
+
+@media screen and (max-width:800px){
+	.calloutRow{
+		display:block;
+	}
+	#request h4{
+		padding:0 30px;
+		margin-bottom:0;
+		margin-top: 15px;
+	}
+	.calloutBox{
+		margin-bottom: 15px;
+	}
+	.calloutBox .text h3{
+		max-width:none;
+	}
+}
+
+@media screen and (max-width:991px){
+	.homeBrandedList{
+		margin-bottom:40px;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.hero h1{
+		margin-top:20px;
+		padding-bottom:50px;
+	}
+}
+
+.threeCalloutsPlain{
+	margin-top:50px;
+}
+
+.threeCalloutsPlain .calloutBox .text{
+	bottom:26px;
+	left:30px;
+}
+
+.threeCalloutsPlain .calloutBox h3{
+	max-width: none;
+}
+
+.twoColBrandedList{
+	margin-top:48px;
+}
+
+.textImageRow .calloutBox{
+	border:0 none !important;
+}
+
+.textImageRow .col-md-6:first-of-type{
+	margin-bottom:30px;
+}
+
+.tier-2 .cta .copy h3 span{
+	color:#4d9d8d;
+}
+
+/* Franchises */
+
+.imageTextRow .container{
+	padding-top:65px;
+	position: relative;
+	padding-bottom:64px;
+}
+
+.imageTextRow h1{
+	margin:0;
+	min-height:110px;
+	padding-bottom:10px;
+}
+.imageTextRow .container:after{
+	content: '';
+	position: absolute;
+	display:block;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.handwritingThumbnails .sectionLead{
+	padding:0;
+	margin:0;
+	margin-top:56px;
+	margin-bottom: 52px;
+}
+
+.handwritingThumbnails h2{
+	margin:0;
+	font-family:"Shadows Into Light",cursive,"Lucida Grande","Tahoma","Verdana","Arial",sans-serif;
+	font-size:38px;
+	line-height:70px;
+	font-weight: normal;
+	text-align: right;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+@media screen and (max-width:991px){
+	.handwritingThumbnails h2{
+		display:none;
+	}
+}
+
+@media screen and (max-width:414px){
+	.standard.thumbnail i{
+		position:absolute;
+		right:15px;
+	}
+	.thumbnail.standard header .mobile-title{
+		padding-right:40px;
+	}
+}
+
+.handwritingThumbnails footer h4{
+	font-size:24px;
+	margin-bottom: 24px;
+}
+
+.handwritingThumbnails .col-md-6:first-of-type footer h4{
+	color:#007499;
+}
+
+.handwritingThumbnails .col-md-6:nth-of-type(2) footer h4{
+	color:#119989;
+}
+
+.handwritingThumbnails .col-md-6:nth-of-type(4) footer h4{
+	color:#faa600;
+}
+
+.handwritingThumbnails .col-md-6:nth-of-type(5) footer h4{
+	color:#f67c24;
+}
+
+
+@media screen and (max-width:767px){
+	.imageTextRow img{
+		margin-bottom:24px;
+	}
+	.thumbnail-section{
+		margin-bottom:20px;
+	}
+}
+
+.textImageRow .bigSectionHeader h1{
+	margin:0;
+	margin-bottom: 54px;
+}
+
+.corpRes .textImageRow{
+	padding-bottom:10px;
+}
+
+.pressList{
+	margin-top:35px;
+}
+
+.pressList h4 a:hover{
+	color:#6e93b5;
+}
+
+.pressList h1{
+	margin-bottom: 29px;
+}
+
+.pressList .btn{
+	font-size: 18px;
+	margin: 17px 0;
+	padding: 12px 24px;
+}
+
+.pressListItem{
+	border-bottom:1px solid #e6e6e6;
+	padding-top:21px;
+}
+
+.pressListItem:last-of-type{
+	border-bottom:0;
+}
+
+.pressListItem h4{
+	font-size:18px;
+	color:#0d4b83;
+	margin:0;
+	margin-bottom: 7px;
+}
+
+.pressListItem h5{
+	font-weight: normal;
+	color:#208570;
+	margin:0;
+	margin-bottom: 24px;
+}
+
+.detailLead img{
+	width:100%;
+	margin-bottom: 30px;
+}
+
+.detailHeader h5{
+	margin: 0;
+	margin-bottom: 11px;
+	line-height:24px;
+}
+
+.detailHeader h1{
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+#wound_article .detailList h3{
+	color:#0d4b83;
+}
+
+.detailBodySection{
+	margin-bottom: 16px;
+}
+
+.detailBodySection p{
+	margin-bottom: 26px;
+}
+
+.woundCare #wound_article .detailHeader h1{
+	color:#007499;
+}
+.ostomyCare #wound_article .detailHeader h1{
+	color:#119989;
+}
+.continenceCare #wound_article .detailHeader h1{
+	color:#faa600;
+}
+.infusionDevices #wound_article .detailHeader h1{
+	color:#f67c24;
+}
+
+.btn-md{
+	padding:18px 24px;
+	min-width:250px;
+}
+
+@media screen and (min-width:992px){
+	.article_main{
+		padding-top:62px;
+	}
+}
+
+.tier-2 .cta .ctalink{
+	line-height:20px;
+	display: inline-block;
+}
+
+.tier-2 .cta .copy{
+	padding:0 23px 0 30px;
+}
+.detailHeader h5{
+	margin-top:0;
+}
+
+.detailBodySection ul{
+	list-style:none;
+	margin:0;
+	margin-left:15px;
+}
+
+.detailBodySection li{
+	padding-left:20px;
+	position: relative;
+	padding-bottom:14px;
+}
+
+.detailBodySection li:before{
+	content:'•';
+	font-weight:bold;
+	position: absolute;
+	left:0;
+	top:-1px;
+}
+.detailHeader.noDetailLead{
+	margin-top:-4px;
+}
+
+@media screen and (max-width:767px){
+	.detailHeader.noDetailLead{
+		margin-top:32px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.detailHeader.noDetailLead{
+		margin-top: 22px;
+	}
+}
+
+.detailPressList .pressListItem{
+	padding-top:12px;
+	position: relative;
+	padding-right:30px;
+}
+.detailPressList .pressListItem:last-of-type{
+	border-bottom:1px solid #e6e6e6;
+}
+
+@media screen and (max-width:767px){
+	.detailPressList{
+		margin-bottom:40px;
+	}
+}
+
+.detailPressList .pressListItem:after{
+	font-family: ionicons;
+	font-size:20px;
+	color:#02437c;
+	content:'\f125';
+	position: absolute;
+	right:0;
+	top:50%;
+	margin-top:-11px;
+}
+
+.detailPressList h4{
+	font-size:16px;
+	margin-bottom: 4px;
+	line-height:1.4;
+}
+
+.detailPressList h5{
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+.investTable {
+	padding-top: 55px;
+
+}
+
+.investTable th {
+	color: #1D836E;
+	border-bottom: 0;
+}
+
+.investTable tr {
+
+	border-bottom: 0;
+}
+
+.investTable tr:nth-child(even) {
+	background-color: #F2F2F2;
+}
+
+
+
+.investTable td {
+	color: #286090;
+	border-bottom: 0;
+
+}
+
+.investTable caption{
+	background-color: #0E4B84;
+	color: white;
+	border-bottom-width: 5px;
+	border-bottom-color: #337ab7;
+	text-align: center;
+}
+
+.copyright{
+	padding-top: 45px;
+}
+.copyright p{
+	line-height: 120%;
+	text-align: center;
+	font-size: 10px;
+}
+
+.article_sidebar li ul{
+	display:none;
+}
+
+.article_sidebar li.active ul{
+	display:block;
+}
+
+#wound_article .downloadItem h4, #wound_article .downloadItem h5{
+	color:#0d4b83;
+	margin:0;
+}
+
+#wound_article .downloadItem h4{
+	margin-bottom: 8px;
+}
+
+#wound_article .downloadItem h5{
+	margin-bottom: 50px;
+}
+
+
+#wound_article .downloadItem a:hover h4, #wound_article .downloadItem a:hover h5{
+	color:#06233d;
+}
+
+
+
+.downloadImage{
+	width:100%;
+	margin-bottom:12px;
+}
+
+.downloadImage:after{
+	content:'';
+	display: block;
+	padding-bottom:57%;
+}
+.downloadSection{
+	margin-top:24px;
+}
+@media screen and (min-width:992px){
+	.downloadSection{
+		margin-top:40px;
+	}
+}
+
+
+.mediaContacts p span:not(.nowrap){
+	color:#188670;
+	font-weight: bold;
+}
+
+.mediaContacts p span a{
+	font-weight:normal;
+}
+
+.mediaContacts{
+	margin-bottom:32px;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.desktop-menu .tier-1:not(.tier-2) li:nth-of-type(4) .tier-2 .col-md-4:nth-of-type(2) ul:nth-of-type(2) a{
+		min-height:48px;
+		padding-top:10px;
+	}
+}
+
+
+
+.sharePriceDisplay{
+	position: absolute;
+  top: 23px;
+	background-color: white;
+	z-index: 1;
+	width: 83%;
+  margin: 0 auto;
+	margin-left: 20px;
+}
+
+.sharePriceDisplay p{
+	font-size: 20px;
+	padding: 18px;
+	color: #808080;
+}
+
+
+.bigGreenText{
+	padding-right: 10px;
+	border-right:1px solid #DEDEDE;
+	color: #3EAE4A;
+	font-size: 55px;
+
+}
+
+.investNum{
+	color: #808080;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.newThumb footer{
+	min-height: 0;
+}
